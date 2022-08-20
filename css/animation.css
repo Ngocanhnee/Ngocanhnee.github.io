@@ -1,0 +1,30 @@
+@charset "utf-8";
+/* CSS Document */
+.bg{
+	height: 300px;
+	overflow: hidden;
+	position: relative;
+	width: 100%;
+}
+.toro{
+    padding-left: 700px;
+	z-index: 10;
+
+}
+
+.meocar{
+	height: 100px;
+	bottom: -5px;
+	left: 50px;
+	animation: meocarrun 3s infinite linear;
+	z-index: 20;
+}
+
+@keyframes meocarrun{
+	from{
+		transform: translate(1900px);
+	}
+	to{
+		transform: translate(-1000px);
+	}
+}

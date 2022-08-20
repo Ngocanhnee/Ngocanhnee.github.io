@@ -1,0 +1,212 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box
+}
+.hop-text{
+	padding: 10px 30px 10px 30px;
+	border-radius: 9px;
+}	
+.btn-primary{
+	border: 1px solid white;
+}
+.center{
+	display: flex;
+	justify-content: center;
+	align-content: center;
+}
+.containerlibra {
+	width: 80%;
+	margin: 0 auto;
+	align-content: center;
+}
+h1{
+	font-size: 60px;
+    font-family: 'Montserrat', sans-serif;
+	line-height: 130%;
+	letter-spacing: 0.1em;
+}
+.bg-primary{
+	background: #1168CC
+}
+.bg-secondary{
+	background: #192232
+}
+.bg-dark{
+	background: #0E0E0E
+}
+.bg-light{
+	color: #E3E3E3;
+}
+.bg-success{
+	background: #75CA65;
+}
+.bg-warning{
+	background: #FAC656;
+}
+.bg-error{
+	background: #BA0202;
+}
+.bg-link{
+	background: #FAC656;
+}
+.text-primary{
+	background: #1168CC
+}
+.text-secondary{
+	background: #192232
+}
+.text-light{
+	color: #E3E3E3;
+}
+.btn{
+	padding: 8px 40px;
+	text-decoration: none;
+}
+
+.btn-secondary{
+	background: #192232;
+	color: white;
+}
+.btn-white{
+	background: #E8E8E8;
+	color: #1F1F1F;
+}
+.row-video{
+	background: black;
+	height: 94.9vh;
+	width: 50%;
+}
+.row-videoright{
+	width: 50%;
+	margin-left: 50%;
+}
+.justify-start{
+	justify-content: flex-start;
+}
+.justify-center{
+	justify-content: center;
+}
+.justify-end{
+	justify-content: flex-end;
+}
+.justify-between{
+	justify-content: space-between;
+}
+.justify-around{
+	justify-content: space-around;
+}
+.align-item-start{
+	align-items: flex-start;
+}
+.align-item-center{
+	align-items: center
+}
+.align-item-end{
+	align-items: flex-end
+}
+.g-0>[class*="col-"]{
+	padding: 0;
+}
+.g-1>[class*="col-"]{
+	padding: 4px;
+}
+.g-2>[class*="col-"]{
+	padding: 8px;
+}
+.g-3>[class*="col-"]{
+	padding: 16px;
+}
+
+.vienchan{ border-bottom: 1px solid #666}
+.vienchantrang{ border-bottom: 1px solid #ffffff}
+.ml-10{ margin-left: 10px} 
+.ml-15{ margin-left: 15px}
+.ml-50{ margin-left: 50px}
+.mr-10{ margin-right: 10px} 
+.mr-15{ margin-right: 15px}
+.mx-10{ margin-left: 10px; margin-right: 10px} 
+.mx-15{ margin-left: 15px;margin-right: 15px}
+.my-10{ margin-top: 10px; margin-bottom: 10px} 
+.my-15{ margin-top: 15px;margin-bottom: 15px}
+.mt-20{ margin-top: 20px}
+.mt-40{ margin-top: 40px}
+.mt-100{ margin-top: 100px}
+.mt-200{ margin-top: 200px}
+.mt-650{ margin-top: 650px}
+.mt-ani{ margin-top: 5000px}
+.mx-auto{ margin-left: auto; margin-right: auto}
+
+.p-0{ padding: 0}
+.pt-50{ padding-top: 50px} 
+.pb-50{ padding-bottom: 50px}
+.py-50{ padding-bottom: 50px; padding-top: 50px}
+.py-20{ padding-bottom: 20px; padding-top: 20px} 
+.pt-20{ padding-top: 20px}
+.pl-15{ padding-left: 15px} 
+.pr-15{ padding-right: 15px} 
+.px-15{ padding-left: 15px; padding-right: 15px}
+.p-15{ padding: 15px}
+
+* {  box-sizing: border-box; outline: none}
+.containercenter {width: 80%; margin: auto;}
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+.row {  display: flex; flex-wrap: wrap}
+.border{ border: 1px solid #ff0}
+.img-40{ width: 40%; height: auto}
+.img-70{ width: 70%; height: auto}
+.img-100{ width: 100%; height: auto}
+.img-circle{ border-radius: 50%}
+
+.d-block{ display: block}
+.d-none{ display: none}
+
+.d-flex{ display: flex; flex-wrap: wrap}
+.justify-center{ justify-content: center}
+.justify-between{ justify-content: space-between}
+.justify-around{ justify-content: space-around}
+.justify-end{ justify-content: flex-end}
+.justify-start{ justify-content: flex-start}
+
+.align-center{ align-items:  center}
+.align-start{ align-items:flex-start}
+.align-end{ align-items:flex-end}
+.align-stretch{ align-items:stretch}
+
+.align-self-center{align-self: center}
+.align-self-bottom{align-self:flex-end}
+.align-self-top{align-self:flex-start}
+
+.flex-column{ flex-direction: column}
+.flex-row{ flex-direction: row}
+
+
+.text-right{ text-align: right}
+.text-center{ text-align: center}
+.text-left{ text-align: left}
+
+.vogiua{
+    display: flex;
+	padding-left: 50px;
+	width: 600px;
+	align-content: center;
+	align-items: center;
+	position: absolute;
+	z-index: 20;
+}
+
+
